@@ -13,9 +13,13 @@ license: mit
 
 This project was made to showcase developed plugins for Digital Slide Archive through on Hugging Face spaces.
 
+The project is a work-in-progress. I will make a release when I have it working. Stay tuned!
+
 ## Getting started
 
 #### Deployment
+
+When the solution is ready, the website should be accessible on [Hugging Face](https://huggingface.co/spaces/andreped/dsa4hf).
 
 #### Development
 
