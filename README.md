@@ -11,7 +11,7 @@ license: mit
 
 # dsa4hf
 
-This project was made to showcase developed plugins for Digital Slide Archive through on Hugging Face spaces.
+This project was made to showcase developed plugins for Digital Slide Archive through hosting on Hugging Face spaces.
 
 The project is a work-in-progress. I will make a release when I have it working. Stay tuned!
 
@@ -24,8 +24,9 @@ When the solution is ready, the website should be accessible on [Hugging Face](h
 #### Development
 
 ```
+git clone https://github.com/andreped/dsa4hf.git
 docker build -t dsa4hf .
-docker run -it -p 8080:8080 dsa4hf
+docker run -it -p 7860:7860 dsa4hf
 ```
 
 To go inside docker image and debug, at the bottom of the Dockerfile, add `ENTRYPOINT [ "/bin/sh" ]` before running.
